@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/handlebars-v3.0.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/my.js"></script>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button
+                    type="button"
+                    class="navbar-toggle collapsed btn-primary"
+                    data-toggle="collapse"
+                    data-target="#mainNavbar"
+                    aria-expanded="false">Open Menu</button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sura1english.html">First Surah</a></li>
+                        <li class="active"><a href="myphotos.html">The Photo Collection</a></li>
+                        <li><a href="favarticles.html">Favourite Articles</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <h2>The Photo Collection</h2>
+
+            <ol class="breadcrumb">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="myphotos.html">The Photo Collection</a>
+                </li>
+            </ol>
+
+            <p>
+                Taken from around the web.
+            </p>
+
+
+            <div class="row"> <!-- start photos -->
+
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img1.jpeg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img2.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img3.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img4.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img5.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img6.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img7.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img8.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img9.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img10.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img11.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img12.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img13.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img14.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img15.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img16.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img17.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img18.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-2 pho-coll-cont">
+                    <img class="pho-coll-it" src="images/img19.jpg" data-toggle="modal" data-target="#myModal" onclick="makeModalPic();"/>
+                </div>
+            </div>
+
+        </div> <!-- ends container -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalpic" class="modalpic" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
